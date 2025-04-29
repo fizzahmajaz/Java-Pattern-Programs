@@ -157,3 +157,32 @@ Modify n to change the height of the pyramid.
 Use numbers (1, 2, etc.) instead of * for number-based pyramids.
 
 Try mirroring or inverting the pyramid for new challenges.
+
+## 📌 Pattern 4: Inverted Half Pyramid
+
+![Uploading Inverted HALF  PYRAMID.jpg…]()
+
+
+### 📃 Description
+
+This pattern prints an **inverted half pyramid** — a reversed version of the regular half pyramid we saw earlier.  
+Instead of starting with one star and increasing, this pattern starts with the **maximum number of stars** and decreases with each row.
+
+It’s helpful for beginners to understand how **control flow** changes the direction of a pattern simply by adjusting the loop variables.
+
+---
+
+### 🔁 What's Different?
+
+In the **Half Pyramid**, we looped from `i = 0` to `n`, and the number of stars increased with each row.  
+In the **Inverted Half Pyramid**, we do the opposite:
+
+- The loop starts from `i = n` and goes down to `i = 1`.
+- The number of stars **decreases** with each row.
+- The inner loop runs until `j <= i`, so the stars printed per row **shrink each time**.
+
+This creates a **top-down decreasing pattern**.
+
+
+
+
