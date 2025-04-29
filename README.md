@@ -185,5 +185,26 @@ In the **Inverted Half Pyramid**, we do the opposite:
 This creates a **top-down decreasing pattern**.
 
 
+## 📌 Pattern 5: Number Half Pyramid
+
+---
+
+### 📃 Description
+
+This pattern prints a **half pyramid** made of numbers instead of stars.  
+Each row prints numbers starting from `1` up to the current row number `i`.
+
+This pattern helps beginners practice **nested loops** with numeric values and understand how the inner loop can be used to control **sequential number.
+
+![NumberHalfPyramid](https://github.com/user-attachments/assets/2d078a58-8b89-4cb7-8e15-3ae21e34eaf1)
+---
+
+### 🔁 How It Works
+
+- Outer loop runs from `i = 1` to `n`, controlling the number of rows.
+- Inner loop runs from `j = 1` to `i`, printing numbers from `1` to the current row number.
+- After printing each row’s numbers, `System.out.println()` moves to the next line.
+
+
 
 
