@@ -160,7 +160,8 @@ Try mirroring or inverting the pyramid for new challenges.
 
 ## 📌 Pattern 4: Inverted Half Pyramid
 
-![Uploading Inverted HALF  PYRAMID.jpg…]()
+![Inverted HALF  PYRAMID](https://github.com/user-attachments/assets/b25a40f9-2671-46ff-89b6-cadf4fc5d802)
+
 
 
 ### 📃 Description
