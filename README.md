@@ -91,8 +91,7 @@ Else, print a space
 
 This builds a rectangle that looks solid around the edges but hollow inside.
 
-💡 Learning Focus
-✅ Introduces:
+### 💡 Learning Focus
 
 Conditional statements inside loops
 
@@ -102,7 +101,7 @@ Visualizing grid-based structure more clearly
 
 This is a powerful beginner exercise for mastering control flow within patterns.
 
-⚙️ Customize It
+### ⚙️ Customize It
 Try changing n and m to create wider/taller rectangles.
 
 Replace * with custom symbols (e.g., #, @)
