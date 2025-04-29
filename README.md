@@ -107,3 +107,53 @@ Try changing n and m to create wider/taller rectangles.
 Replace * with custom symbols (e.g., #, @)
 
 Nest more conditions inside to explore shapes within shapes.
+
+
+## 📌 Pattern 3: Half Pyramid Pattern
+
+### 📃 Description
+This pattern creates a **left-aligned half pyramid** using stars (`*`). Each row adds one more star than the previous, forming a triangle aligned to the left.
+![Half Pyramid Pattern](https://github.com/user-attachments/assets/613f2374-5b46-4065-b9fa-21a449605313)
+
+### 🔍 How It Works
+
+- `n = 5`: The maximum number of rows (but `i` starts at 0).
+- The **outer loop** runs through each row.
+- The **inner loop** runs from 0 up to `i`, printing a `*` for each iteration.
+
+#### Loop Breakdown:
+for (int i = 0; i <= n; i++) {
+    for (int j = 0; j <= i; j++) {
+        System.out.print("*");
+    }
+    System.out.println();
+}
+
+Example Breakdown:
+i = 0 → 1 star
+
+i = 1 → 2 stars
+
+i = 2 → 3 stars
+
+…
+
+i = 5 → 6 stars
+
+Each row increases by one star.
+
+💡 Learning Focus
+✅ This pattern helps you understand:
+
+Nested loops where one loop's counter affects the other's range.
+
+Row-wise incremental growth in output.
+
+Simple control flow using loop conditions.
+
+🛠 Customization Ideas
+Modify n to change the height of the pyramid.
+
+Use numbers (1, 2, etc.) instead of * for number-based pyramids.
+
+Try mirroring or inverting the pyramid for new challenges.
