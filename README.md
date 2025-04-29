@@ -62,3 +62,49 @@ This pattern is often the first step in mastering **2D shapes**, and it's essent
 - Change the `n` and `m` values to make the rectangle larger or smaller.
 - Replace `*` with another character like `#`, `$`, or a number.
 - Try using `Scanner` to take user input for dynamic pattern generation.
+
+## 📌 Pattern 2: Hollow Rectangle Pattern
+
+### 📃 Description
+This program prints a **hollow rectangle** using nested loops and conditional statements. Unlike the solid rectangle, this one only prints stars on the border — leaving the inside empty.
+![Hollow Rectangle](https://github.com/user-attachments/assets/b8214e4c-bcf6-4759-8a73-34c58bc76bbf)
+### 🔍 How It Works
+
+- `n = 5`: number of rows  
+- `m = 4`: number of columns  
+- The **outer loop** controls the rows.
+- The **inner loop** prints characters in each row.
+
+#### Key Logic:
+if (i == 1 || i == n || j == 1 || j == m)
+    System.out.print("*");
+else
+    System.out.print(" ");
+
+Print * only if:
+
+It's the first or last row (i == 1 || i == n)
+
+It's the first or last column (j == 1 || j == m)
+
+Else, print a space
+
+This builds a rectangle that looks solid around the edges but hollow inside.
+
+💡 Learning Focus
+✅ Introduces:
+
+Conditional statements inside loops
+
+Logical thinking for shape boundaries
+
+Visualizing grid-based structure more clearly
+
+This is a powerful beginner exercise for mastering control flow within patterns.
+
+⚙️ Customize It
+Try changing n and m to create wider/taller rectangles.
+
+Replace * with custom symbols (e.g., #, @)
+
+Nest more conditions inside to explore shapes within shapes.
