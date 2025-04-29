@@ -205,6 +205,35 @@ This pattern helps beginners practice **nested loops** with numeric values and u
 - Inner loop runs from `j = 1` to `i`, printing numbers from `1` to the current row number.
 - After printing each row’s numbers, `System.out.println()` moves to the next line.
 
+  
+
+## 📌 Pattern 6: Number Inverted Half Pyramid
+
+---
+
+### 📃 Description
+
+This pattern prints an **inverted half pyramid using numbers**.  
+Unlike the standard Number Half Pyramid where the numbers increase row by row, here the rows **decrease** in length — starting from the maximum and going down to `1`.
+
+This inversion introduces the idea of **reversing the loop structure**, which is key in building more flexible logic patterns.
+
+![NumberInvertedHalfPyramid](https://github.com/user-attachments/assets/b77c6f10-553b-44cb-863c-35cafbf74517)
+---
+
+### 🔁 What's Different?
+
+Let’s compare it with **Pattern 5: Number Half Pyramid**:
+
+| Feature                  | Half Pyramid         | Inverted Half Pyramid     |
+|--------------------------|----------------------|----------------------------|
+| Outer loop direction     | `i = 1` to `n`        | `i = n` to `1`             |
+| Inner loop logic         | `j = 1` to `i`        | `j = 1` to `i`             |
+| Output growth            | Numbers increase      | Numbers decrease           |
+| Resulting shape          | Ascending triangle    | Descending triangle        |
+
+By simply reversing the outer loop, the entire shape changes!
+
 
 
 
