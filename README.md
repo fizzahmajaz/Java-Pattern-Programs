@@ -34,7 +34,8 @@ This mindset will allow you to:
 
 ### 📃 Description
 This Java program prints a **solid rectangle** made of `*` characters using nested loops. It's one of the most basic and essential pattern-building exercises in Java.
-![Solid Rectangle Pattern](https://github.com/user-attachments/assets/93dca925-2f58-495d-a0fd-62e2ad404580)
+![Solid Rectangle Pattern](https://github.com/user-attachments/assets/6a99ddbd-31ef-4e5d-ae0d-3fd44c2dfb6a)
+
 
 
 ### 🔍 How It Works
