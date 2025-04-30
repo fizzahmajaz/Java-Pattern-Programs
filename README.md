@@ -418,11 +418,6 @@ This pattern is excellent for practicing **nested loops**, spacing logic, and nu
 
 
 ## 🔷 Pattern 12: Diamond Pattern
-
----
-
-## 🔷 Pattern 12: Diamond Pattern (Refined)
-
 ---
 
 ### 📃 Description
