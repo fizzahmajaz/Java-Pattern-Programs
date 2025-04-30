@@ -417,6 +417,43 @@ This pattern is excellent for practicing **nested loops**, spacing logic, and nu
 | Shape               | Pyramid with increasing number width       |
 
 
+## 🔷 Pattern 12: Diamond Pattern
+
+---
+
+### 📃 Description
+
+The **Diamond Pattern** is a symmetrical shape made of stars (`*`) printed in both ascending and descending order. It forms a diamond or kite-like structure by combining two pyramid patterns: one upright and one inverted.
+
+This is a beautiful and classic example to understand symmetry, spacing, and dual structure with nested loops.
+![Diamond Pattern](https://github.com/user-attachments/assets/be9d41d1-cc14-418b-8e93-fd1f5c8ed7ed)
+
+### 🔁 How It Works
+
+- The **upper half** is just a pyramid of stars (like in earlier patterns).
+- The **lower half** is an **inverted pyramid**.
+- Each part is carefully spaced using `n - i` spaces before the stars.
+
+### 🔹 Structure Breakdown
+
+- Outer loop controls the rows.
+- First inner loop adds leading spaces to center the stars.
+- Second inner loop prints `* ` multiple times depending on the row.
+
+---
+### 🔍 What's Unique?
+
+| Feature              | Description                                      |
+|----------------------|--------------------------------------------------|
+| Dual Section          | Combines an upright and an inverted pyramid      |
+| Centered Layout       | Achieved using `n - i` spaces                    |
+| Visual Symmetry       | Makes the pattern look like a perfect diamond    |
+
+
+
+
+
+
 
 
 
