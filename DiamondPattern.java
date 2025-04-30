@@ -17,10 +17,10 @@ public class DiamondPattern {
 
          // to print the numbers
 
-         for (int j = 1; j <= i; j++) {
+         for (int j = 1; j <= 2*i-1; j++) {
 
             // will print i for consistant numbers
-            System.out.print( "* ");
+            System.out.print( "*");
 
          }
 
@@ -40,10 +40,10 @@ public class DiamondPattern {
 
          // to print the numbers
 
-         for (int j = 1; j <= i; j++) {
+         for (int j = 1; j <= 2*i-1; j++) {
 
             // will print i for consistant numbers
-            System.out.print( "* ");
+            System.out.print( "*");
 
          }
 
