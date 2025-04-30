@@ -352,6 +352,37 @@ So the row becomes:
 This pattern is an excellent exercise in combining creativity with control flow.
 
 
+## 🔷 Pattern 10: Solid Rhombus
+
+---
+
+### 📃 Description
+
+The **Solid Rhombus** pattern creates a tilted rectangle (or block of stars) by shifting each row to the right with spaces. Though it looks slanted, the block itself remains solid with a fixed number of stars per row.
+
+This pattern introduces the concept of **row shifting** using spaces, which is useful in shaping complex geometrical patterns.
+![Solid Rhombus](https://github.com/user-attachments/assets/0aad2ce0-9bc1-4c89-8a55-12b9e05d1808)
+
+
+### 🔁 How It Works
+
+- Outer loop runs `n` times to print `n` rows.
+- Each row:
+  - Starts with **spaces**, decreasing with each new row.
+  - Then prints a **fixed number** of stars (here, 4 stars per row).
+
+🔹 Example: For `n = 4`, the space decreases from 4 to 1, making the rectangle shift leftwards.
+
+---
+### 🔍 What's Unique?
+
+| Feature           | Description                                   |
+|------------------|-----------------------------------------------|
+| Space Logic       | `i` goes from `n` to `1` → prints `i` spaces |
+| Star Logic        | Constant stars printed (`j = 1 to 4`)        |
+| Overall Shape     | Slanted rectangle (rhombus)                  |
+
+
 
 
 
