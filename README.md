@@ -301,6 +301,59 @@ This creates an alternating 0–1 pattern diagonally across the triangle.
 | … | … |   …    |   …    |
 
 
+## 🦋 Pattern 9: Butterfly Pattern
+
+---
+
+### 📃 Description
+
+This is a beautiful and symmetrical pattern known as the **Butterfly Pattern**, resembling the wings of a butterfly. It’s built in two halves — the **upper wings** and the **lower wings** — both using the same logic but mirrored in direction.
+
+This pattern combines stars (`*`) and spaces to form the full butterfly shape. It helps beginners practice **nested loops**, **symmetry**, and **space management**.
+![Butterfly Pattern](https://github.com/user-attachments/assets/9ca90013-b85d-41fb-a752-176f32f331ac)
+
+
+### 🔁 How It Works
+
+The pattern is divided into two parts:
+
+#### 🔼 Upper Half:
+- Outer loop runs from `1 to n`.
+- For each row:
+  - Print `i` stars on the left.
+  - Print `2 * (n - i)` spaces in the center.
+  - Print `i` stars again on the right.
+
+#### 🔽 Lower Half:
+- Outer loop runs from `n to 1`.
+- Same logic as the upper half but in **reverse** order.
+
+This symmetry gives the butterfly its winged shape.
+
+### 🔎 Detailed Loop Breakdown (Upper Part Example for i = 2, n = 4)
+- Print 2 stars → `**`
+- Print 2 * (4 - 2) = 4 spaces → `    `
+- Print 2 stars again → `**`
+
+So the row becomes:  
+`**    **`
+
+---
+
+### 💡 Learning Focus
+
+✅ With this pattern, you’ll learn:
+
+- How to mirror output horizontally
+- Managing **spaces dynamically** based on row number
+- Using **mathematical expressions** inside loops
+- How a small logic change in loops can result in complex symmetrical patterns
+
+This pattern is an excellent exercise in combining creativity with control flow.
+
+
+
+
 
 
 
