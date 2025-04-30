@@ -421,33 +421,42 @@ This pattern is excellent for practicing **nested loops**, spacing logic, and nu
 
 ---
 
+## 🔷 Pattern 12: Diamond Pattern (Refined)
+
+---
+
 ### 📃 Description
 
-The **Diamond Pattern** is a symmetrical shape made of stars (`*`) printed in both ascending and descending order. It forms a diamond or kite-like structure by combining two pyramid patterns: one upright and one inverted.
+The **Diamond Pattern** is a symmetrical star-shaped pattern made by joining two pyramids — one upright and one inverted. Each row contains a centered set of stars that grows and then shrinks, forming a perfect diamond shape.
 
-This is a beautiful and classic example to understand symmetry, spacing, and dual structure with nested loops.
+This refined version uses `2 * i - 1` stars to ensure true center alignment without trailing spaces, making the diamond tighter and more mathematically consistent.
 ![Diamond Pattern](https://github.com/user-attachments/assets/be9d41d1-cc14-418b-8e93-fd1f5c8ed7ed)
 
 ### 🔁 How It Works
 
-- The **upper half** is just a pyramid of stars (like in earlier patterns).
-- The **lower half** is an **inverted pyramid**.
-- Each part is carefully spaced using `n - i` spaces before the stars.
+- The **upper half** increases star count by 2 per row (`2 * i - 1`).
+- The **lower half** mirrors the upper half in reverse.
+- **Spacing** is adjusted using `n - i` spaces before the stars to align them properly.
+
+---
 
 ### 🔹 Structure Breakdown
 
-- Outer loop controls the rows.
-- First inner loop adds leading spaces to center the stars.
-- Second inner loop prints `* ` multiple times depending on the row.
+| Component           | Description                                       |
+|--------------------|---------------------------------------------------|
+| Outer Loop (↑)      | Builds the top pyramid from row `1` to `n`        |
+| Outer Loop (↓)      | Builds the bottom inverted pyramid from `n` to `1`|
+| Inner Loop 1        | Prints `n - i` spaces to center the stars         |
+| Inner Loop 2        | Prints `2 * i - 1` stars per row                  |
 
----
 ### 🔍 What's Unique?
 
-| Feature              | Description                                      |
-|----------------------|--------------------------------------------------|
-| Dual Section          | Combines an upright and an inverted pyramid      |
-| Centered Layout       | Achieved using `n - i` spaces                    |
-| Visual Symmetry       | Makes the pattern look like a perfect diamond    |
+| Feature               | Description                                      |
+|------------------------|--------------------------------------------------|
+| Mathematical Star Count| Uses `2 * i - 1` to ensure symmetry              |
+| Dual Pyramid Combo     | Forms a full diamond with upper and lower halves|
+| Centered Alignment     | Controlled with `n - i` leading spaces           |
+
 
 
 ## 🔷 Pattern 13: Palindromic Number Pyramid
