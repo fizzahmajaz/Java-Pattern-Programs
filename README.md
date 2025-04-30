@@ -235,5 +235,37 @@ Let’s compare it with **Pattern 5: Number Half Pyramid**:
 By simply reversing the outer loop, the entire shape changes!
 
 
+## 📌 Pattern 7: Floyd’s Triangle
+
+---
+
+### 📃 Description
+
+Floyd’s Triangle is a famous number pattern where numbers are printed in a **continuous sequence**, row by row, forming a triangular structure.
+
+Unlike the **Number Half Pyramid**, where each row prints numbers starting from `1`, this pattern continues numbering from where the last row left off — resulting in a triangle filled with **consecutive natural numbers**.
+![Floyd’s Triangle](https://github.com/user-attachments/assets/2e68a571-13a3-4de1-9e07-cf54c6b0ade3)
+
+
+### 🔁 How It Works
+
+- A variable `number` is initialized to `0`.
+- The outer loop runs from `1` to `n` to handle rows.
+- The inner loop runs from `1` to `i`, printing the current value of `number`.
+- After printing each number, `number` is incremented by `1`.
+
+---
+
+### 🔄 Difference from Number Half Pyramid
+
+| Feature                     | Number Half Pyramid      | Floyd’s Triangle             |
+|-----------------------------|---------------------------|-------------------------------|
+| Starting number per row     | Always starts from `1`    | Continues from last number    |
+| Pattern logic               | Resets `j` in every row   | Uses a single `number` counter |
+| Output type                 | Repeats sequence each row | Builds on previous row         |
+| Sequence                    | 1, 12, 123, ...           | 0, 01, 012, 0123, ...          |
+
+
+
 
 
