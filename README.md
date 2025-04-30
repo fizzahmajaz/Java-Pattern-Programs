@@ -383,6 +383,42 @@ This pattern introduces the concept of **row shifting** using spaces, which is u
 | Overall Shape     | Slanted rectangle (rhombus)                  |
 
 
+## 🔷 Pattern 11: Number Pyramid
+
+---
+
+### 📃 Description
+
+The **Number Pyramid** pattern displays a pyramid made of numbers where each row contains the same number repeated, equal to the row number. It appears centered due to the spaces at the beginning of each line, creating a symmetrical, triangle-like shape.
+
+This pattern is excellent for practicing **nested loops**, spacing logic, and number printing with control.
+![Pattern](https://github.com/user-attachments/assets/e0588069-7a2d-4f43-a0ad-18d85bd5ed8a)
+
+
+### 🔁 How It Works
+
+- The outer loop runs from `i = 1` to `n` (number of rows).
+- The **first inner loop** prints spaces:
+  - Runs from `j = 1` to `n - i` → to center-align the numbers.
+- The **second inner loop** prints the number `i`:
+  - It prints `i` a total of `i` times, each followed by a space for separation.
+
+🔹 Each row contains:
+- `n - i` spaces
+- `i` numbers (all same as row number)
+
+---
+### 🔍 What's Unique?
+
+| Feature             | Description                                |
+|--------------------|--------------------------------------------|
+| Space Logic         | `j = 1 to n - i` (to center the pyramid)   |
+| Number Logic        | Prints the row number (`i`) repeatedly     |
+| Shape               | Pyramid with increasing number width       |
+
+
+
+
 
 
 
