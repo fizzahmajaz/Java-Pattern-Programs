@@ -266,6 +266,44 @@ Unlike the **Number Half Pyramid**, where each row prints numbers starting from 
 | Sequence                    | 1, 12, 123, ...           | 0, 01, 012, 0123, ...          |
 
 
+## 📌 Pattern 8: 0–1 Triangle
+
+---
+
+### 📃 Description
+
+This is a unique triangle pattern that prints a combination of `0`s and `1`s in a triangular form. The rule is simple yet clever: the printed value (either 0 or 1) at each position depends on the **sum of the row and column indices**.
+
+This pattern introduces **conditional logic** based on arithmetic operations, which helps build a strong foundation in using conditions inside loops.
+![0 -1 Triangle Pattern](https://github.com/user-attachments/assets/828c0dcb-0752-4736-a12c-e72846e285ca)
+### 🔁 How It Works
+
+- The outer loop controls the rows from `1` to `n`.
+- The inner loop prints values in each column up to the current row number.
+- For each cell, it calculates `i + j`:
+  - If the result is **even**, print `1`
+  - If the result is **odd**, print `0`
+
+This creates an alternating 0–1 pattern diagonally across the triangle.
+
+---
+
+### 📊 Logic Table (i + j % 2)
+
+| i | j | i + j | Output |
+|---|---|--------|--------|
+| 1 | 1 |   2    |   1    |
+| 2 | 1 |   3    |   0    |
+| 2 | 2 |   4    |   1    |
+| 3 | 1 |   4    |   1    |
+| 3 | 2 |   5    |   0    |
+| 3 | 3 |   6    |   1    |
+| … | … |   …    |   …    |
+
+
+
+
+
 
 
 
