@@ -450,6 +450,38 @@ This is a beautiful and classic example to understand symmetry, spacing, and dua
 | Visual Symmetry       | Makes the pattern look like a perfect diamond    |
 
 
+## 🔷 Pattern 13: Palindromic Number Pyramid
+
+---
+
+### 📃 Description
+
+The **Palindromic Number Pyramid** forms a centered triangle where each row is a symmetrical combination of decreasing and increasing numbers, resembling a palindrome. 
+
+This pattern is an excellent demonstration of number handling, symmetry, and control flow using nested loops.
+![Palindomic Pattrern](https://github.com/user-attachments/assets/b11c29c2-2157-46f0-90c2-4c565847fe69)
+
+
+### 🔁 How It Works
+
+- The **left half** of the pyramid prints numbers in **descending order** starting from the row number down to 1.
+- The **right half** prints numbers in **ascending order** starting from 2 up to the row number.
+- The **leading spaces** (`n - i`) ensure the pyramid is centered.
+
+---
+
+### 🔹 Structure Breakdown
+
+| Component          | Description                                         |
+|-------------------|-----------------------------------------------------|
+| Outer Loop         | Controls the number of rows                        |
+| First Inner Loop   | Prints spaces for center alignment (`n - i` spaces)|
+| Second Inner Loop  | Prints numbers from `i` to `1` (descending)        |
+| Third Inner Loop   | Prints numbers from `2` to `i` (ascending)         |
+
+---
+
+
 
 
 
